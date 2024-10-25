@@ -39,6 +39,13 @@
             <path value="Extension.url" />
             <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DSW-ParentalHeight" />
         </element>
+        <element id="Extension.relationship">
+            <path value="Extension.relationship" />
+            <binding>
+                <strength value="extensible" />
+                <valueSet value="https://fhir.nhs.wales/ValueSet/DSW-VS-PersonRelationshipType" />
+            </binding>
+        </element>
         <element id="Extension.code.coding">
             <path value="Extension.code.coding" />
             <slicing>
