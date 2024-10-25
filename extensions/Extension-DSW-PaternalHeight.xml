@@ -1,0 +1,79 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Extension-DSW-ParentalHeight" />
+    <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DSW-ParentalHeight" />
+    <version value="1.1.0" />
+    <name value="ExtensionDSWRecordingSetting" />
+    <title value="Extension Data Standards Wales Parental Height" />
+    <status value="active" />
+    <date value="2024-06-28" />
+    <publisher value="DWS" />
+    <contact>
+        <name value="NHS Wales" />
+        <telecom>
+            <system value="email" />
+            <value value="fhir.standards@wales.nhs.uk" />
+            <use value="work" />
+            <rank value="1" />
+        </telecom>
+    </contact>
+    <description value="An extension to record the childs parental height." />
+    <purpose value="." />
+    <copyright value="." />
+    <fhirVersion value="4.0.1" />
+    <kind value="complex-type" />
+    <abstract value="false" />
+    <context>
+        <type value="element" />
+        <expression value="Observation" />
+    </context>
+    <type value="Extension" />
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+    <derivation value="constraint" />
+    <differential>
+        <element id="Extension">
+            <path value="Extension" />
+            <short value="An extension to record the child's parental height." />
+            <definition value="." />
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url" />
+            <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DSW-ParentalHeight" />
+        </element>
+        <element id="Extension.code.coding:loinc">
+            <path value="Extension.code.coding" />
+            <sliceName value="loinc" />
+        </element>
+        <element id="Extension.code.coding:loinc.code">
+            <path value="Extension.code.coding.code" />
+            <fixedCode value="8302-2" />
+        </element>
+        <element id="Extension.code.coding:snomedCT">
+            <path value="Extension.code.coding" />
+            <sliceName value="snomedCT" />
+            <binding>
+                <strength value="preferred" />
+                <description value="Derived from UKCore STU3 for use by NHS Wales before fully released. A code from the SNOMED CT UK coding system for length measurements." />
+                <valueSet value="https://fhir.nhs.wales/ValueSet/DSW-VS-BodyHeightMeasurements" />
+            </binding>
+        </element>
+        <element id="Extension.value[x]">
+            <path value="Extension.value[x]" />
+            <min value="1" />
+            <type>
+                <code value="Quantity" />
+            </type>
+        </element>
+        <element id="Extension.value[x].unit">
+            <path value="Extension.value[x].unit" />
+            <fixedString value="meter" />
+        </element>
+        <element id="Extension.value[x].system">
+            <path value="Extension.value[x].system" />
+            <fixedUri value="http://unitsofmeasure.org" />
+        </element>
+        <element id="Extension.value[x].code">
+            <path value="Extension.value[x].code" />
+            <fixedCode value="m" />
+        </element>
+    </differential>
+</StructureDefinition>
