@@ -1,9 +1,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DSW-VS-PreferredWrittenCommunicationFormat" />
-    <url value="https://fhir.hl7.org.uk/ValueSet/DSW-PreferredWrittenCommunicationFormat" />
+    <url value="https://fhir.hl7.org.uk/ValueSet/DSW-VS-PreferredWrittenCommunicationFormat" />
     <version value="2.1.0" />
     <name value="DSWVSPreferredWrittenCommunicationFormat" />
-    <title value="Data Standards Wales ValuSet Preferred Written Communication Format" />
+    <title value="Data Standards Wales ValueSet Preferred Written Communication Format" />
     <status value="active" />
     <date value="2021-09-10" />
     <publisher value="DSW" />

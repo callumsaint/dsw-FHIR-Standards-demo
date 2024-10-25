@@ -1,6 +1,6 @@
 <ValueSet xmlns="http://hl7.org/fhir">
     <id value="DSW-VS-PreferredContactMethod" />
-    <url value="https://fhir.hl7.org.uk/ValueSet/DSW-PreferredContactMethod" />
+    <url value="https://fhir.hl7.org.uk/ValueSet/DSW-VS-PreferredContactMethod" />
     <version value="2.2.0" />
     <name value="DSWVSPreferredContactMethod" />
     <title value="Data Standards Wales ValuSet Preferred Contact Method" />
