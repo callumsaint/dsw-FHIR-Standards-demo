@@ -39,8 +39,8 @@
             <path value="Extension.url" />
             <fixedUri value="https://fhir.nhs.wales/StructureDefinition/Extension-DSW-ParentalHeight" />
         </element>
-        <element id="Observation.code.coding">
-            <path value="Observation.code.coding" />
+        <element id="Extension.code.coding">
+            <path value="Extension.code.coding" />
             <slicing>
                 <discriminator>
                     <type value="value" />
