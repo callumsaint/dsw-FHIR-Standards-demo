@@ -11,8 +11,8 @@
 		"display": "Mark Smith (Healthcare Assistant)"
     },
     "organization": {
-        "reference": "Organization/31064ea2-a0bc-4735-abd4-38de625143cb"
-	"display": "Aneurin Bevan University Health Board"
+        "reference": "Organization/31064ea2-a0bc-4735-abd4-38de625143cb",
+		"display": "Aneurin Bevan University Health Board"
     },
     "code":  [
         {
