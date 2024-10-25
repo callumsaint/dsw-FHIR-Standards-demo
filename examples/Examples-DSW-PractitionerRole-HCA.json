@@ -7,8 +7,8 @@
         ]
     },
     "practitioner": {
-        "reference": "Practitioner/2afa6a02-26f1-468a-a55e-a40bcf339a57"
-	"display": Mark Smith (Healthcare Assistant)
+        "reference": "Practitioner/2afa6a02-26f1-468a-a55e-a40bcf339a57",
+		"display": "Mark Smith (Healthcare Assistant)"
     },
     "organization": {
         "reference": "Organization/31064ea2-a0bc-4735-abd4-38de625143cb"
