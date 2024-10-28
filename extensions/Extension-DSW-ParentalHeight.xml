@@ -2,7 +2,7 @@
     <id value="Extension-DSW-ParentalHeight" />
     <url value="https://fhir.nhs.wales/StructureDefinition/Extension-DSW-ParentalHeight" />
     <version value="1.1.0" />
-    <name value="ExtensionDSWPaternalHeight" />
+    <name value="ExtensionDSWParentalHeight" />
     <title value="Extension Data Standards Wales Parental Height" />
     <status value="active" />
     <date value="2024-06-28" />
